@@ -34,3 +34,9 @@ npm run build
 npm run lint
 ```
 # Vue-Drag-Drop-template
+
+```sh
+npm npm i -S vuedraggable@next
+```
+
+ ![alt text](drag_and_drop.png)
