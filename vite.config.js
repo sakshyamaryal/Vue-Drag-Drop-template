@@ -10,5 +10,4 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
-  base: '/Vue-Drag-Drop-template/' // Update this to your GitHub Pages repo name
 })
