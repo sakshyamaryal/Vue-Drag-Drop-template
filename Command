@@ -1,2 +1,13 @@
 npm install vuedraggable
 
+npm install gh-pages --save-dev
+
+
+Add deploy script to package.json:
+"scripts": {
+  "deploy": "gh-pages -d dist"
+}
+
+npm run build
+
+npm run deploy
