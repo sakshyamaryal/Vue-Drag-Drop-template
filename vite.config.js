@@ -13,5 +13,12 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
-  base: '/Vue-Drag-Drop-template/' // Ensure this matches your GitHub Pages repo name
+  base: '/Vue-Drag-Drop-template/', // Adjust base path for GitHub Pages
+  build: {
+    rollupOptions: {
+      input: {
+        main: fileURLToPath(new URL('./index.html', import.meta.url))
+      }
+    }
+  }
 })
