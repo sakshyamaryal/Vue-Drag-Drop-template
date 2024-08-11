@@ -13,7 +13,5 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
-  base: process.env.NODE_ENV === 'production'
-    ? '/Vue-Drag-Drop-template/' // Replace with your repository name if necessary
-    : '/'
+  base: '/Vue-Drag-Drop-template/' // Ensure this matches your GitHub Pages repo name
 })
